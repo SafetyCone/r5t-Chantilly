@@ -1,0 +1,15 @@
+{
+  "name": "r5t-chantilly",
+  "version": "0.0.1",
+  "description": "A components functionality base-class library (with CSS styling left to dervied types).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David Coats",
+  "license": "MIT",
+  "dependencies": {
+    "strongly-typed-events": "1.6.4"
+  }
+}
