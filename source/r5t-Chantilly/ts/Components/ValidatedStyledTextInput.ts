@@ -21,6 +21,6 @@ export class ValidatedStyledTextInput extends ValidatedTextInput
     {
         super.HandleValidationResult(validationResult);
 
-        this.Styler.StyleTextInput(this.TextInput, validationResult.IsValid);
+        this.Styler.StyleTextInput(this.HtmlElement, validationResult.IsValid);
     }
 }

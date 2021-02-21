@@ -17,16 +17,16 @@ export class ValidatedTextInputWithOutput extends ValidatedStyledTextInput
     private readonly ValidInvalidParagraphPair: ValidInvalidParagraphPair;
 
     constructor(
-        textInput: HTMLInputElement,
+        inputElement: HTMLInputElement,
         validator: (value: string) => Promise<ValidationResult>,
         textInputStyler: IValidatedTextInputStyler,
         elementShowHideStyler: IElementShowHideStyler,
         event: keyof HTMLElementEventMap = "change",
         wrapperSelector: ElementSelectorAs<HTMLDivElement> = HtmlElementHelper.SelectParentOfParentAs)
     {
-        super(textInput, validator, textInputStyler, event);
+        super(inputElement, validator, textInputStyler, event);
 
-        let wrapperDiv = wrapperSelector(this.TextInput);
+        let wrapperDiv = wrapperSelector(this.HtmlElement);
 
         let validParagraph: HTMLParagraphElement = QuerySelectorHelper.GetDescendentElementByClassName(wrapperDiv, ValidatedTextInputWithOutput.ValidParagraphElementClassName);
         let invalidParagraph: HTMLParagraphElement = QuerySelectorHelper.GetDescendentElementByClassName(wrapperDiv, ValidatedTextInputWithOutput.InvalidParagraphElementClassName);
