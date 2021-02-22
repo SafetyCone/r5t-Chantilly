@@ -1,4 +1,5 @@
 export * from "./Components/StatusDisplayV01/StatusDisplayV01";
+export * from "./Components/HideableElement";
 export * from "./Components/ValidatedTextInputWithOutput";
 export * from "./Components/ValidatedStyledTextInput";
 export * from "./Enumerations/AlertType";
