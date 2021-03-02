@@ -10,7 +10,6 @@ export class HtmlModel
     public static readonly InnerSpanClassName = "status-display-inner-span";
 
 
-    public readonly WrapperDiv: HTMLDivElement;
     public readonly DefaultParagraph: HTMLParagraphElement;
     public readonly InProgressParagraph: HTMLParagraphElement;
     public readonly ErrorParagraph: HTMLParagraphElement;
@@ -25,11 +24,9 @@ export class HtmlModel
 
 
     constructor(
-        wrapperDiv: HTMLDivElement
+        public readonly WrapperDiv: HTMLDivElement
     )
     {
-        this.WrapperDiv = wrapperDiv;
-
         this.DefaultParagraph = QuerySelectorHelper.GetDescendentElementByClassName(this.WrapperDiv, HtmlModel.DefaultElementClassName);
         this.InProgressParagraph = QuerySelectorHelper.GetDescendentElementByClassName(this.WrapperDiv, HtmlModel.InProgressElementClassName);
         this.ErrorParagraph = QuerySelectorHelper.GetDescendentElementByClassName(this.WrapperDiv, HtmlModel.ErrorElementClassName);
