@@ -1,7 +1,7 @@
 import { HtmlElementHelper } from "r5t-Avignon/Index";
 
 import { HtmlModel } from "./HtmlModel";
-import { IElementShowHideStyler } from "../../Stylers/Interfaces/IElementShowHideStyler";
+import { IElementShowHideStylerV01 } from "../../Stylers/Interfaces/IElementShowHideStylerV01";
 import { AlertType } from "../../Enumerations/AlertType";
 import { HtmlModelExtensions } from "./HtmlModelExtensions";
 
@@ -63,7 +63,7 @@ export class StatusDisplayV01
 
     constructor(
         element: HTMLDivElement,
-        public readonly Styler: IElementShowHideStyler)
+        public readonly Styler: IElementShowHideStylerV01)
     {
         this.HtmlModel = new HtmlModel(element);
     }

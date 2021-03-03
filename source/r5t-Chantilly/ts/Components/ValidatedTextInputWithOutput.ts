@@ -1,6 +1,6 @@
 import { ElementSelectorAs, HtmlElementHelper, QuerySelectorHelper, ValidationResult } from "r5t-Avignon/Index";
 
-import { IElementShowHideStyler } from "../Stylers/Interfaces/IElementShowHideStyler";
+import { IElementShowHideStylerV01 } from "../Stylers/Interfaces/IElementShowHideStylerV01";
 import { IValidatedTextInputStyler } from "../Stylers/Interfaces/IValidatedTextInputStyler";
 import { ValidatedStyledTextInput } from "./ValidatedStyledTextInput";
 import { ValidInvalidParagraphPair } from "./ValidInvalidParagraphPair";
@@ -20,7 +20,7 @@ export class ValidatedTextInputWithOutput extends ValidatedStyledTextInput
         inputElement: HTMLInputElement,
         validator: (value: string) => Promise<ValidationResult>,
         textInputStyler: IValidatedTextInputStyler,
-        elementShowHideStyler: IElementShowHideStyler,
+        elementShowHideStyler: IElementShowHideStylerV01,
         event: keyof HTMLElementEventMap = "change",
         wrapperSelector: ElementSelectorAs<HTMLDivElement> = HtmlElementHelper.SelectParentOfParentAs)
     {

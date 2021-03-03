@@ -1,10 +1,10 @@
-import { IElementShowHideStyler } from "../Stylers/Interfaces/IElementShowHideStyler";
+import { IElementShowHideStylerV01 } from "../Stylers/Interfaces/IElementShowHideStylerV01";
 
-export class HideableElement
+export class HideableElementV01
 {
     constructor(
         public readonly Element: HTMLElement,
-        private readonly Styler: IElementShowHideStyler,
+        private readonly Styler: IElementShowHideStylerV01,
     )
     {
     }

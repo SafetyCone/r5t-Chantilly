@@ -1,8 +1,8 @@
-import { IElementShowHideStyler } from "../Interfaces/IElementShowHideStyler";
+import { IElementShowHideStylerV01 } from "../Interfaces/IElementShowHideStylerV01";
 
 export class IElementShowHideStylerExtensions
 {
-    public static ShowOrHideElement(styler: IElementShowHideStyler, element: HTMLElement, showOrHide: boolean)
+    public static ShowOrHideElement(styler: IElementShowHideStylerV01, element: HTMLElement, showOrHide: boolean)
     {
         if(showOrHide)
         {
@@ -14,13 +14,13 @@ export class IElementShowHideStylerExtensions
         }
     }
 
-    public static ShowAndHideElements(styler: IElementShowHideStyler, elementToShow: HTMLElement, elementToHide: HTMLElement)
+    public static ShowAndHideElements(styler: IElementShowHideStylerV01, elementToShow: HTMLElement, elementToHide: HTMLElement)
     {
         styler.ShowElement(elementToShow);
         styler.HideElement(elementToHide);
     }
 
-    public static HideAndShowElements(styler: IElementShowHideStyler, elementToHide: HTMLElement, elementToShow: HTMLElement)
+    public static HideAndShowElements(styler: IElementShowHideStylerV01, elementToHide: HTMLElement, elementToShow: HTMLElement)
     {
         styler.HideElement(elementToHide);
         styler.ShowElement(elementToShow);

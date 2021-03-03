@@ -1,6 +1,6 @@
 import { HtmlListItemList } from "r5t-Arbois/Index";
 import { HtmlElementHelper } from "r5t-Avignon/Index";
-import { IElementShowHideStyler } from "../../Stylers/Interfaces/IElementShowHideStyler";
+import { IElementShowHideStylerV01 } from "../../Stylers/Interfaces/IElementShowHideStylerV01";
 
 import { HtmlModel } from "./HtmlModel";
 
@@ -17,7 +17,7 @@ export class ListDisplayV01<TListElement extends HtmlListItemList, TValue> imple
     constructor(
         element: HTMLDivElement,
         public readonly ListItemProvider: (value: TValue) => Promise<HTMLLIElement>,
-        private readonly Styler: IElementShowHideStyler,
+        private readonly Styler: IElementShowHideStylerV01,
     )
     {
         this.HtmlModel = new HtmlModel(element);
