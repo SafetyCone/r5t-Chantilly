@@ -1,4 +1,4 @@
-import { HtmlElementHelper } from "r5t-Avignon/Index";
+import { HtmlElementHelper } from "r5t-Avignon";
 
 import { HtmlModel } from "./HtmlModel";
 import { IElementShowHideStylerV01 } from "../../Stylers/Interfaces/IElementShowHideStylerV01";

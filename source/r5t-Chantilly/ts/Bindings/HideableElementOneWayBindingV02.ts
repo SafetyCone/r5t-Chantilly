@@ -1,4 +1,4 @@
-import { ObservableValue } from "r5t-Arbois/Index";
+import { ObservableValue } from "r5t-Arbois";
 
 import { IElementShowHideStylerV02 } from "../Stylers/Interfaces/IElementShowHideStylerV02";
 

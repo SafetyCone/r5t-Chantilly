@@ -1,6 +1,6 @@
-import { ValidatedTextInput } from "r5t-Arbois/Index";
+import { ValidatedTextInput } from "r5t-Arbois";
+import { ValidationResult } from "r5t-Avignon";
 
-import { ValidationResult } from "r5t-Avignon/Index";
 import { IValidatedTextInputStyler } from "../Stylers/Interfaces/IValidatedTextInputStyler";
 
 /**

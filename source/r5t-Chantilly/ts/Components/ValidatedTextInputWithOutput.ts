@@ -1,4 +1,4 @@
-import { ElementSelectorAs, HtmlElementHelper, QuerySelectorHelper, ValidationResult } from "r5t-Avignon/Index";
+import { ElementSelectorAs, HtmlElementHelper, QuerySelectorHelper, ValidationResult } from "r5t-Avignon";
 
 import { IElementShowHideStylerV01 } from "../Stylers/Interfaces/IElementShowHideStylerV01";
 import { IValidatedTextInputStyler } from "../Stylers/Interfaces/IValidatedTextInputStyler";

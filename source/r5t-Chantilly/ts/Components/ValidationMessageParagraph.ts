@@ -1,4 +1,5 @@
-import { HtmlElementHelper } from "r5t-Avignon/Index";
+import { HtmlElementHelper } from "r5t-Avignon";
+
 import { IValidationMessageParagraphStyler } from "../Stylers/Interfaces/IValidationMessageParagraphStyler";
 
 /**

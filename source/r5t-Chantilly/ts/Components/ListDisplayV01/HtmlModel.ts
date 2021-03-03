@@ -1,5 +1,5 @@
-import { HtmlListItemList } from "r5t-Arbois/Index";
-import { QuerySelectorHelper } from "r5t-Avignon/Index";
+import { HtmlListItemList } from "r5t-Arbois";
+import { QuerySelectorHelper } from "r5t-Avignon";
 
 export class HtmlModel<TListElement extends HtmlListItemList>
 {

@@ -1,4 +1,5 @@
-import { ValueChangedNotifier } from "r5t-Arbois/Index";
+import { ValueChangedNotifier } from "r5t-Arbois";
+
 import { IElementShowHideStylerV01 } from "../Stylers/Interfaces/IElementShowHideStylerV01";
 
 export class HideableElementBindingV01

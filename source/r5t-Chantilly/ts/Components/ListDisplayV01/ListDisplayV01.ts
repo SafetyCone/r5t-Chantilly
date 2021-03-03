@@ -1,5 +1,6 @@
-import { HtmlListItemList } from "r5t-Arbois/Index";
-import { HtmlElementHelper } from "r5t-Avignon/Index";
+import { HtmlListItemList } from "r5t-Arbois";
+import { HtmlElementHelper } from "r5t-Avignon";
+
 import { IElementShowHideStylerV01 } from "../../Stylers/Interfaces/IElementShowHideStylerV01";
 
 import { HtmlModel } from "./HtmlModel";
