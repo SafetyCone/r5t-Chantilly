@@ -9,6 +9,7 @@ export * from "./Components/ValidatedStyledTextInput";
 export * from "./Enumerations/AlertType";
 export * from "./Stylers/Classes/ClassListBasedSuccessFailureStyler";
 export * from "./Stylers/Extensions/IElementShowHideStylerExtension";
+export * from "./Stylers/Extensions/IElementShowHideStylerV02Extensions";
 export * from "./Stylers/Extensions/ISuccessFailureStylerExtensions";
 export * from "./Stylers/Interfaces/IElementShowHideStylerV01";
 export * from "./Stylers/Interfaces/IElementShowHideStylerV02";
