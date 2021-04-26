@@ -1,5 +1,5 @@
 export interface IElementShowHideStylerV02
 {
-    Show(element: HTMLElement): Promise<void>;
-    Hide(element: HTMLElement): Promise<void>;
+    Show(element: Element): Promise<void>;
+    Hide(element: Element): Promise<void>;
 }
